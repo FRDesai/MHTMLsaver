@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "MHTML saver",
+  "description": "A mhtml saver file",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons8-capture-16.png",
+      "48": "icons8-capture-48.png"
+    }
+  },
+  "permissions": ["tabs", "activeTab", "pageCapture", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons8-capture-16.png",
+    "48": "icons8-capture-48.png"
+  }
+}

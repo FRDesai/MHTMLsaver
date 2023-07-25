@@ -1,0 +1,16 @@
+body {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  margin: 30px auto;
+  border-radius: 20px; /* Make the button round */
+  background-color: pink; /* Change the button color to blue */
+}
